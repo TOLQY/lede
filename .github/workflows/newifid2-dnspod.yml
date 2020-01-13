@@ -161,9 +161,10 @@ jobs:
           CONFIG_PACKAGE_luci-app-webadmin=y
           CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
-          # lean中添加
+          ## lean中添加
           CONFIG_PACKAGE_luci-app-baidupcs-web=y
           CONFIG_PACKAGE_luci-app-dnspod=y
+          CONFIG_PACKAGE_luci-app-frpc=y
           EOF
 
           # LuCI主题:
